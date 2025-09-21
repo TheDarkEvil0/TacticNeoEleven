@@ -6,16 +6,16 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 // Helper para manejo de errores
-export const handleSupabaseError = (error: any) => {
+export const handleSupabaseError = (error: unknown) => {
   console.error('Supabase error:', error)
   return {
     success: false,
-    error: error.message || 'Error desconocido'
+    error: (error as Error)?.message || 'Error desconocido'
   }
 }
 
 // Helper para respuestas exitosas
-export const handleSupabaseSuccess = (data: any) => {
+export const handleSupabaseSuccess = (data: unknown) => {
   return {
     success: true,
     data

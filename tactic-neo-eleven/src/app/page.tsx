@@ -1,4 +1,5 @@
-'use client' 
+
+'use client'
 
 import { useEffect, useState } from 'react'
 import { supabase } from '@/lib/supabase/client'
@@ -10,7 +11,7 @@ export default function Home() {
     const testConnection = async () => {
       try {
         // Test simple de conexión sin consultar tablas
-        const { data, error } = await supabase.auth.getSession()
+        const { error } = await supabase.auth.getSession()
         
         if (error) {
           setConnectionStatus(`❌ Error de conexión: ${error.message}`)
@@ -18,8 +19,9 @@ export default function Home() {
           // Si llegamos aquí, la conexión funciona
           setConnectionStatus('✅ Conexión con Supabase exitosa!')
         }
-      } catch (err: any) {
-        setConnectionStatus(`❌ Error: ${err.message || 'Error desconocido'}`)
+      } catch (err: unknown) {
+        const errorMessage = (err as Error)?.message || 'Error desconocido'
+        setConnectionStatus(`❌ Error: ${errorMessage}`)
       }
     }
 
