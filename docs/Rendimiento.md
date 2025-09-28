@@ -1,0 +1,374 @@
+**Resumen**
+
+Goles
+
+Asistencias
+
+Tiros
+
+Precision de tiro (%)
+
+Pases
+
+Precision de pases (%)
+
+Regates
+
+Precision de regates (%)
+
+Entradas
+
+Entradas con exito (%)
+
+Fueras de juego
+
+Faltas cometidas
+
+Posesion ganada
+
+Posesion perdida
+
+Minutos jugados
+
+Distancia recorrida
+
+Distancia esprintada
+
+
+
+**Posesion**
+
+**Posesión general**
+
+Posesión (%)
+
+Regates
+
+Regates completados
+
+Regates con éxito (%)
+
+Distancia regateada (km)
+
+Placajes del oponente
+
+Corneres convertidos
+
+Faltas recibidas
+
+Penaltis a favor
+
+Asistencias desde amagos de recepcion
+
+Regates normales (%)
+
+Regates protegido (%)
+
+Regates laterales (%)
+
+Regate agil (%)
+
+
+
+**Ruptura de linea de ataque**
+
+Intentadas al hueco
+
+Completadas al hueco
+
+Intentadas por fuera
+
+Completadas por fuera
+
+
+
+**Rupturas de linea de mediocampo**
+
+Intentadas al hueco
+
+Completadas al hueco
+
+Intentadas por fuera
+
+Completadas por fuera
+
+
+
+**Rupturas de linea de defensa**
+
+Intentadas al hueco
+
+Completadas al hueco
+
+Intentadas por fuera
+
+Completadas por fuera
+
+
+
+**Estilo de regate**
+
+Veces que se ha superado a rivales
+
+Filigranas contrarrestadas
+
+Caños
+
+Autopases
+
+
+
+**Tiros**
+
+**Tiros totales**
+
+Goles sin penalizaciones
+
+xGoles sin penaltis
+
+Tiros
+
+Tiros a puerta
+
+Tiros desviados
+
+Tiros bloqueados
+
+Precision de tiro (%)
+
+Goles de falta
+
+Goles lanzados con penaltis
+
+Goles de tandas de penaltis
+
+Asistencia de tiros
+
+
+
+**Tipo de tiros**
+
+Normal
+
+De calidad
+
+Cabezazo
+
+Zapatazo
+
+Volea
+
+Vaselina
+
+Jugadas ensayadas
+
+
+
+**Pases**
+
+**Pases totales**
+
+Asistencias
+
+Asistencias esperadas
+
+Preasistencias
+
+Pases clave
+
+Jugadores superados en pases
+
+Pases
+
+Completados
+
+Interceptados
+
+Precision de pases (%)
+
+Pases a posiciones en fuera de juego
+
+Centros intentados
+
+Centros completados
+
+Centros bloqueados
+
+Centros con exito (%)
+
+Pases intencionados bajo presion
+
+Pases completados bajo presion
+
+
+
+**Tipo de pases**
+
+Raso
+
+Centro
+
+Pase al hueco
+
+Pase alto al hueco
+
+Centro
+
+Jugadas ensayadas
+
+
+
+**Ruptura de linea de ataque**
+
+Intentadas al hueco
+
+Completadas al hueco
+
+Intentadas por fuera
+
+Completadas por fuera
+
+Intentadas por alto
+
+Completadas por alto
+
+
+
+**Rupturas de linea de mediocampo**
+
+Intentadas al hueco
+
+Completadas al hueco
+
+Intentadas por fuera
+
+Completadas por fuera
+
+Intentadas por alto
+
+Por alto completados
+
+
+
+**Rupturas de linea de defensa**
+
+Intentadas al hueco
+
+Completadas al hueco
+
+Intentadas por fuera
+
+Completadas por fuera
+
+Intentadas por alto
+
+Completadas por alto
+
+
+
+**Defensa**
+
+**Defensa general**
+
+Entradas normales
+
+Entradas normales ganadas
+
+Entradas normales con exito (%)
+
+Entradas agresivas
+
+Entradas agresivas ganadas
+
+Entradas agresivas con exitos (%)
+
+Intercepciones
+
+Bloqueos
+
+Despejes
+
+Fueras de juegos causadas
+
+Duelos ofensivos
+
+Duelos ofensivos ganados
+
+Duelos ofensivos con exito (%)
+
+Duelos defensivos
+
+Duelos defensivos ganados
+
+Duelos defensivos con exito (%)
+
+Duelos aereos
+
+Duelos aereos ganados
+
+Duelos aereos con exito (%)
+
+Duelos perdidos
+
+Derrota en tercio defensivo
+
+Derrota en area
+
+
+
+**Infracciones**
+
+Faltas cometidas
+
+Penaltis cometidos
+
+Goles en propia meta
+
+
+
+**Porteria**
+
+Paradas totales
+
+Tiros en contra
+
+Tiros a puerta
+
+Paradas
+
+Goles encajados
+
+Porcentaje de paradas con exito (%)
+
+Paradas con puño
+
+Paradas con impulso
+
+Penaltis parados
+
+Goles de penalti encajados
+
+Paradas en tanda de penaltis
+
+Goles encajados en tanda de penaltis
+
+
+
+**Tipo de tiros parados**
+
+Normal
+
+De calidad
+
+Cabezazo
+
+Zapatazo
+
+Volea
+
+Vaselina
+
+Jugadas ensayadas
+
+
+

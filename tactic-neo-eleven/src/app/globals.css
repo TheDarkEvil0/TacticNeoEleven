@@ -1,0 +1,85 @@
+/* app/globals.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9; /* Fondo muy claro */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Contenedor blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #004d99; /* Azul de equipo */
+  border-bottom: 2px solid #ffcc00; /* Línea de acento amarillo */
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* --- Estilos para el Formulario --- */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #e6f0ff; /* Fondo claro para el formulario */
+}
+
+input[type="text"], input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #004d99;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover:not(:disabled) {
+  background-color: #003366;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* --- Estilos para la Lista --- */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+li:last-child {
+  border-bottom: none;
+}
